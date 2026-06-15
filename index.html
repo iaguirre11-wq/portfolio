@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ian Aguirre – Network Specialist</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <span class="nav-logo">Ian Aguirre</span>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#certifications">Certs</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#work">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-inner">
+    <div>
+      <p class="hero-eyebrow">IT Professional · Aspiring Network Engineer</p>
+      <h1 class="hero-name">Ian <em>Aguirre</em></h1>
+      <p class="hero-role">Jr. Network Specialist</p>
+      <p class="hero-employer">Lower Hudson Regional Information Center (LHRIC) · Suffern, NY School District</p>
+      <button class="hero-cta" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Get in Touch →</button>
+    </div>
+    <div class="hero-stats">
+      <div>
+        <div class="stat-num">5+</div>
+        <div class="stat-label">Years in IT</div>
+      </div>
+      <div>
+        <div class="stat-num">4</div>
+        <div class="stat-label">Certifications</div>
+      </div>
+      <div>
+        <div class="stat-num">4</div>
+        <div class="stat-label">Companies</div>
+      </div>
+    </div>
+  </div>
+  <div class="hero-divider"></div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <p class="section-label">About Me</p>
+  <h2 class="section-title">Building networks,<br>one connection at a time.</h2>
+  <div class="about-grid">
+    <div class="about-text">
+      <p>I'm a Jr. Network Specialist at the Lower Hudson Regional Information Center, supporting the Suffern, NY school district's network infrastructure day-to-day. My career path has taken me from consumer tech at Staples and Apple repair at Geek Squad to enterprise IT at Langan Engineering — and now into dedicated network work.</p>
+      <p>Outside of work, I run a personal home lab on repurposed hardware where I've built and operate a full self-hosted infrastructure stack: Proxmox virtualization, TrueNAS NFS storage, Docker containerization, Authentik SSO, Nginx Proxy Manager, Pi-hole DNS filtering, and Unifi networking — all running on my own subnet with proper UID/GID permission mapping and automated CI/CD via git polling.</p>
+      <p>I'm currently pursuing a B.S. in Network Engineering and Security at WGU, actively working toward my CCNA, and driven to grow into a full Network Engineer role.</p>
+    </div>
+    <div class="about-side">
+      <div class="info-row"><span class="info-key">Location</span><span class="info-val">Ringwood, NJ</span></div>
+      <div class="info-row"><span class="info-key">Current Role</span><span class="info-val">Jr. Network Specialist</span></div>
+      <div class="info-row"><span class="info-key">Employer</span><span class="info-val">LHRIC · Suffern, NY</span></div>
+      <div class="info-row"><span class="info-key">Education</span><span class="info-val">B.S. Network Eng. (In Progress)</span></div>
+      <div class="info-row"><span class="info-key">Phone</span><span class="info-val">201-759-5398</span></div>
+      <div class="info-row"><span class="info-key">Email</span><span class="info-val"><a href="mailto:i.aguirre11@icloud.com">i.aguirre11@icloud.com</a></span></div>
+      <div class="info-row"><span class="info-key">LinkedIn</span><span class="info-val"><a href="https://www.linkedin.com/in/ian-aguirre" target="_blank">ian-aguirre</a></span></div>
+      <div class="info-row"><span class="info-key">Status</span><span class="info-val"><span class="available-badge"><span class="dot"></span>Open to Opportunities</span></span></div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <p class="section-label">Technical Skills</p>
+  <h2 class="section-title">Core Competencies</h2>
+  <div class="skills-grid">
+
+    <div class="skill-card">
+      <div class="skill-card-icon">🌐</div>
+      <div class="skill-card-title">Networking</div>
+      <div class="skill-tags">
+        <span class="tag">TCP/IP</span><span class="tag">DNS / DHCP</span><span class="tag">VLANs</span>
+        <span class="tag">Subnetting</span><span class="tag">Unifi</span><span class="tag">Pi-hole</span>
+        <span class="tag">Nginx Proxy Mgr</span><span class="tag">Reverse Proxy</span>
+      </div>
+    </div>
+
+    <div class="skill-card">
+      <div class="skill-card-icon">🖥️</div>
+      <div class="skill-card-title">Virtualization & Containers</div>
+      <div class="skill-tags">
+        <span class="tag">Proxmox</span><span class="tag">LXC Containers</span><span class="tag">Docker</span>
+        <span class="tag">Docker Compose</span><span class="tag">nginx:alpine</span><span class="tag">Unprivileged Containers</span>
+      </div>
+    </div>
+
+    <div class="skill-card">
+      <div class="skill-card-icon">💾</div>
+      <div class="skill-card-title">Storage & File Systems</div>
+      <div class="skill-tags">
+        <span class="tag">TrueNAS</span><span class="tag">NFS Shares</span><span class="tag">ZFS</span>
+        <span class="tag">UID/GID Mapping</span><span class="tag">SQLite</span><span class="tag">Volume Management</span>
+      </div>
+    </div>
+
+    <div class="skill-card">
+      <div class="skill-card-icon">🔒</div>
+      <div class="skill-card-title">Security & Identity</div>
+      <div class="skill-tags">
+        <span class="tag">Authentik SSO</span><span class="tag">Forward Auth</span><span class="tag">Vaultwarden</span>
+        <span class="tag">Argon2 Hashing</span><span class="tag">WebAuthn / Passkeys</span><span class="tag">Active Directory</span>
+      </div>
+    </div>
+
+    <div class="skill-card">
+      <div class="skill-card-icon">⚙️</div>
+      <div class="skill-card-title">Automation & DevOps</div>
+      <div class="skill-tags">
+        <span class="tag">Git</span><span class="tag">Bash Scripting</span><span class="tag">Cron Jobs</span>
+        <span class="tag">CI/CD (Git Polling)</span><span class="tag">Auto-Deploy</span><span class="tag">Linux Admin</span>
+      </div>
+    </div>
+
+    <div class="skill-card">
+      <div class="skill-card-icon">💻</div>
+      <div class="skill-card-title">Device & Endpoint Mgmt</div>
+      <div class="skill-tags">
+        <span class="tag">Intune</span><span class="tag">Apple Business Mgr</span><span class="tag">Device Provisioning</span>
+        <span class="tag">Windows</span><span class="tag">macOS</span><span class="tag">iOS</span>
+      </div>
+    </div>
+
+    <div class="skill-card">
+      <div class="skill-card-icon">🔧</div>
+      <div class="skill-card-title">Support & Troubleshooting</div>
+      <div class="skill-tags">
+        <span class="tag">Hardware Repair</span><span class="tag">Remote Support</span><span class="tag">OS Reinstalls</span>
+        <span class="tag">Ticketing Systems</span><span class="tag">ITIL</span>
+      </div>
+    </div>
+
+    <div class="skill-card">
+      <div class="skill-card-icon">🤝</div>
+      <div class="skill-card-title">Soft Skills</div>
+      <div class="skill-tags">
+        <span class="tag">Customer Service</span><span class="tag">Training & Mentoring</span>
+        <span class="tag">Process Improvement</span><span class="tag">Documentation</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications">
+  <p class="section-label">Certifications</p>
+  <h2 class="section-title">Credentials &amp; Qualifications</h2>
+  <div class="cert-list">
+    <div class="cert-row">
+      <div class="cert-icon">🔷</div>
+      <div>
+        <div class="cert-name">CompTIA A+</div>
+        <div class="cert-issuer">CompTIA · verify.comptia.org</div>
+      </div>
+      <div class="cert-year">Aug 2025</div>
+      <div class="cert-badge active">Active</div>
+    </div>
+    <div class="cert-row">
+      <div class="cert-icon">🐧</div>
+      <div>
+        <div class="cert-name">Linux Essentials Certificate</div>
+        <div class="cert-issuer">Linux Professional Institute (LPI)</div>
+      </div>
+      <div class="cert-year">Sep 2025</div>
+      <div class="cert-badge active">Active</div>
+    </div>
+    <div class="cert-row">
+      <div class="cert-icon">📋</div>
+      <div>
+        <div class="cert-name">ITIL® v3 Foundation</div>
+        <div class="cert-issuer">PeopleCert</div>
+      </div>
+      <div class="cert-year">Oct 2025</div>
+      <div class="cert-badge active">Active</div>
+    </div>
+    <div class="cert-row">
+      <div class="cert-icon">🎯</div>
+      <div>
+        <div class="cert-name">CCNA — Cisco Certified Network Associate</div>
+        <div class="cert-issuer">Cisco · Target: 2026</div>
+      </div>
+      <div class="cert-year">2026</div>
+      <div class="cert-badge progress">In Progress</div>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+  <p class="section-label">Education</p>
+  <h2 class="section-title">Academic Background</h2>
+  <div class="edu-card">
+    <div>
+      <div class="edu-degree">Bachelor of Technology — Network Engineering and Security</div>
+      <div class="edu-school">Western Governors University</div>
+      <div class="edu-detail">Utah, United States · Online</div>
+      <div class="edu-status">🎓 Currently Enrolled</div>
+    </div>
+    <div class="edu-period">Aug 2025 – Present</div>
+  </div>
+</section>
+
+<!-- WORK HISTORY -->
+<section id="work">
+  <p class="section-label">Work History</p>
+  <h2 class="section-title">Professional Experience</h2>
+  <div class="timeline">
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="tl-header">
+        <div class="tl-role">Jr. Network Specialist</div>
+        <div class="tl-period">2025 – Present</div>
+      </div>
+      <div class="tl-company">Lower Hudson Regional Information Center (LHRIC) · Suffern, NY School District</div>
+      <ul class="tl-bullets">
+        <li>Support and maintain network infrastructure across the Suffern, NY school district under the LHRIC umbrella.</li>
+        <li>Assist with network configuration, troubleshooting, and day-to-day operations of district-wide systems.</li>
+        <li>Apply hands-on networking knowledge gained through home lab practice to real-world school district environments.</li>
+      </ul>
+      <div class="tl-chips">
+        <span class="tl-chip">Networking</span><span class="tl-chip">Infrastructure</span><span class="tl-chip">Troubleshooting</span><span class="tl-chip">K-12 IT</span>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="tl-header">
+        <div class="tl-role">Help Desk Technician</div>
+        <div class="tl-period">Sep 2023 – 2025</div>
+      </div>
+      <div class="tl-company">Langan Engineering &amp; Environmental Services · Parsippany, NJ</div>
+      <ul class="tl-bullets">
+        <li>Provided technical support for employees by resolving hardware, software, and application issues both on-site and remotely.</li>
+        <li>Used Intune to provision laptops and mobile devices, automate application deployment, and manage configurations.</li>
+        <li>Administered user and device access through Active Directory and Apple Business Manager.</li>
+        <li>Managed system upgrades and maintained IT inventory to ensure equipment availability.</li>
+      </ul>
+      <div class="tl-chips">
+        <span class="tl-chip">Intune</span><span class="tl-chip">Active Directory</span><span class="tl-chip">Apple Business Mgr</span><span class="tl-chip">Remote Support</span><span class="tl-chip">Device Provisioning</span>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="tl-header">
+        <div class="tl-role">Apple Pro Repair Agent</div>
+        <div class="tl-period">Nov 2021 – Sep 2023</div>
+      </div>
+      <div class="tl-company">Geek Squad · Riverdale, NJ</div>
+      <ul class="tl-bullets">
+        <li>Resolved hardware failures, software issues, and performed OS repairs and reinstallations.</li>
+        <li>Managed Apple repair inventory and ensured parts availability through the ticketing system.</li>
+        <li>Trained and mentored new hires to strengthen their customer service and sales performance.</li>
+      </ul>
+      <div class="tl-chips">
+        <span class="tl-chip">Apple Repair</span><span class="tl-chip">Hardware</span><span class="tl-chip">Inventory Mgmt</span><span class="tl-chip">Mentoring</span>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="tl-header">
+        <div class="tl-role">Tech Associate</div>
+        <div class="tl-period">Dec 2020 – Nov 2021</div>
+      </div>
+      <div class="tl-company">Staples · Riverdale, NJ</div>
+      <ul class="tl-bullets">
+        <li>Assisted customers with device setup, initial configuration, and troubleshooting.</li>
+        <li>Performed basic device repairs and ensured customers were confident using their new products.</li>
+      </ul>
+      <div class="tl-chips">
+        <span class="tl-chip">Device Setup</span><span class="tl-chip">Customer Service</span><span class="tl-chip">Troubleshooting</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <p class="section-label">Projects &amp; Portfolio</p>
+  <h2 class="section-title">Things I've Built</h2>
+  <div class="projects-grid">
+
+    <div class="project-card">
+      <div class="project-num">01</div>
+      <div class="project-name">squishylabs.org — Home Lab Infrastructure</div>
+      <div class="project-desc">Full self-hosted homelab on repurposed hardware. Proxmox hypervisor hosts three LXC containers: infra (Nginx Proxy Manager, Authentik SSO, Vaultwarden, Pi-hole), media (Jellyfin, Sonarr, Radarr), and apps (custom web apps). Wildcard SSO via Authentik forward auth protects all services at *.squishylabs.org.</div>
+      <div class="project-stack">
+        <span class="stack-tag">Proxmox</span><span class="stack-tag">LXC</span><span class="stack-tag">Authentik SSO</span><span class="stack-tag">Nginx Proxy Mgr</span><span class="stack-tag">Pi-hole</span><span class="stack-tag">Unifi</span><span class="stack-tag">Debian</span>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-num">02</div>
+      <div class="project-name">TrueNAS NFS Storage Integration</div>
+      <div class="project-desc">Configured TrueNAS NFS datasets with custom UID/GID passthrough mapping into Proxmox LXC containers. Datasets mounted as persistent volumes inside Docker containers for app data (SQLite, media). Includes lxc.idmap config for unprivileged containers with permission alignment to TrueNAS appuser.</div>
+      <div class="project-stack">
+        <span class="stack-tag">TrueNAS</span><span class="stack-tag">NFS</span><span class="stack-tag">ZFS</span><span class="stack-tag">UID/GID Mapping</span><span class="stack-tag">Proxmox</span><span class="stack-tag">Docker Volumes</span>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-num">03</div>
+      <div class="project-name">Auto-Deploy CI/CD via Git Polling</div>
+      <div class="project-desc">Built a lightweight CI/CD pipeline using a bash polling script that runs every 5 minutes via cron. Compares local HEAD against origin/main on GitHub — pulls and restarts Docker containers only on changes. Chose polling over webhooks deliberately to avoid exposing port 443 and minimize attack surface.</div>
+      <div class="project-stack">
+        <span class="stack-tag">Bash</span><span class="stack-tag">Git</span><span class="stack-tag">Cron</span><span class="stack-tag">Docker</span><span class="stack-tag">CI/CD</span><span class="stack-tag">Security Design</span>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-num">04</div>
+      <div class="project-name">Vaultwarden Self-Hosted Password Manager</div>
+      <div class="project-desc">Deployed Vaultwarden (Bitwarden-compatible) behind Authentik SSO and Nginx Proxy Manager. Secured with Argon2 PHC admin token, WebSocket enabled, and HTTPS at vaultwarden.squishylabs.org. Configured env hardening, disabled public signups, and used SQLite backend for persistence via TrueNAS volume.</div>
+      <div class="project-stack">
+        <span class="stack-tag">Vaultwarden</span><span class="stack-tag">Argon2</span><span class="stack-tag">HTTPS</span><span class="stack-tag">SQLite</span><span class="stack-tag">Docker</span><span class="stack-tag">SSO</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="contact-inner">
+    <div>
+      <p class="section-label" style="color: var(--gold);">Contact</p>
+      <h2 class="contact-heading">Let's connect and build something great.</h2>
+      <p class="contact-sub">Whether you have a role, a project, or just want to talk networking — my inbox is always open.</p>
+      <div class="contact-links">
+        <a class="contact-link" href="mailto:i.aguirre11@icloud.com"><span class="contact-link-icon">✉</span> i.aguirre11@icloud.com</a>
+        <a class="contact-link" href="tel:2017595398"><span class="contact-link-icon">📞</span> 201-759-5398</a>
+        <a class="contact-link" href="https://www.linkedin.com/in/ian-aguirre" target="_blank"><span class="contact-link-icon">🔗</span> linkedin.com/in/ian-aguirre</a>
+      </div>
+    </div>
+    <div class="contact-form">
+      <div class="form-group">
+        <label class="form-label">Name</label>
+        <input class="form-input" type="text" placeholder="Your name">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Email</label>
+        <input class="form-input" type="email" placeholder="your@email.com">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Message</label>
+        <textarea class="form-input" placeholder="What's on your mind?"></textarea>
+      </div>
+      <button class="form-btn">Send Message →</button>
+    </div>
+  </div>
+</section>
+
+<footer>© 2026 Ian Aguirre · Jr. Network Specialist · LHRIC</footer>
+
+</body>
+</html>
